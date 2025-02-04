@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {useEffect, useState} from 'react'
+import { useState} from 'react'
 import Result from './Result'
 
-const Goal = Math.floor(Math.random()*10)+1;
+
 
 function App() {
   const [term,setTerm]=useState('');

@@ -2,7 +2,7 @@
 let result=' ';
 function Result(props){
     const {Goal,term,onCorrect}=props;
-    if (term == '')
+    if (term === '')
     {
         result='';
     }
@@ -12,7 +12,7 @@ function Result(props){
     else if (term < Goal){
         result ="Lesser";
     }
-    else if (term == Goal){
+    else if (term === Goal){
         result = "Yepppp! correct ";
         setTimeout(()=>{onCorrect()},1000)
         
