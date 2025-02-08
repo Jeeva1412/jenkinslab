@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <div id = "container">
-        <div id = "heading"> Guess the  betweeen 1-10 </div>
+        <div id = "heading"> Guess the number  betweeen 1-10 </div>
         <div id = "form ">
           <label>Enter the number:</label>
           <input
